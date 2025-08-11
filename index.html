@@ -48,7 +48,11 @@
                     <p class="text-deskripsi-greet lead">Saya adalah seorang pelajar kreatif yang berfokus pada desain,
                         pengembangan, dan
                         inovasi.</p>
-                    <a href="#about" class="btn btn-outline-primary btn-md rounded-3">Pelajari Lebih Lanjut</a>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-outline-primary btn-md rounded-3" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">
+                        Pelajari Lebih Lanjut
+                    </button>
                 </div>
                 <div class="col-lg-6 text-center mt-4 mt-lg-0">
                     <img src="assets/img/profile.png" class="img-fluid rounded-circle shadow-lg profile-img"
@@ -57,6 +61,49 @@
             </div>
         </div>
     </section>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">
+                        Tentang Saya
+                    </h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Profesi: Web Developer <br> <br>
+
+                    Seorang Web Developer yang bersemangat dalam membangun dan mengembangkan situs web fungsional,
+                    modern, dan responsif. Memiliki minat kuat untuk menjadi Fullstack Developer dengan kemampuan
+                    menyeluruh mulai dari frontend hingga backend. <br> <br>
+                    
+                    Selain itu, juga tertarik untuk menguasai UI/UX
+                    Design agar mampu menciptakan tampilan antarmuka yang estetis, intuitif, dan user-friendly. <br> <br>
+
+                    Terbiasa mempelajari teknologi terbaru, mengasah keterampilan di berbagai bahasa pemrograman,
+                    framework, dan tools pendukung, serta memahami prinsip desain yang baik. Memiliki tekad untuk
+                    menjadi profesional yang mampu: <br> <br>
+
+                    1. Mengembangkan website dari sisi tampilan hingga logika sistem. <br>
+
+                    2. Mendesain pengalaman pengguna yang memudahkan interaksi dan meningkatkan kepuasan user. <br>
+
+                    3. Bekerja sama dalam tim maupun secara mandiri dengan efisiensi tinggi. <br>
+
+                    4. Beradaptasi dengan tren industri digital yang terus berkembang. <br> <br>
+
+                    Dengan kombinasi skill web development, UI/UX design, dan pengetahuan teknologi yang luas, siap
+                    menciptakan solusi digital inovatif yang bermanfaat dan berdampak positif. <br>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- About Us -->
     <section id="about" class="py-5">
