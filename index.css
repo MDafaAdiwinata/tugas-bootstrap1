@@ -5,6 +5,14 @@
   font-family: "Poppins", Arial, Helvetica, sans-serif;
 }
 
+:root {
+  scroll-padding-top: 80px !important;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 #home {
   padding: 5rem 0.8rem;
   background-color: #f8f8ff;
